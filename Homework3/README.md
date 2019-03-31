@@ -4,7 +4,7 @@
 
 简要架构：
 
-`Expr`：表达式类（抽象类，含抽象方法`public void qiuDao()`）
+`Expr`：表达式类（抽象类，含抽象方法`public Expr qiuDao()`）
 
 `Basic extends Expr`：基本初等函数（包括常数、幂函数、三角函数及其幂）
 
