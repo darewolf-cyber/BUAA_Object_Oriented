@@ -20,11 +20,8 @@ public class Main {
         int i = 0;
         while (i < arr.length)
         {
-<<<<<<< HEAD
             ele = new BigInteger(arr[i]);
-=======
             ele = new BigInteger(arr[i]); //biginteger
->>>>>>> Initial
             sum = sum.add(ele);
             i++;
         }
