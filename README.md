@@ -1,7 +1,7 @@
 # BUAA_Object_Oriented
 **北航面向对象作业**
 
-**注意：四个pre可能有错误。**指导书链接：[预习作业](https://github.com/OO-guide-2019/homework-pre)
+**注意：四个pre可能有错误**。指导书链接：[预习作业](https://github.com/OO-guide-2019/homework-pre)
 
 Homework1：多项式求导（2019.3.1）
 
