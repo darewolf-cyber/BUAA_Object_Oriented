@@ -7,16 +7,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Main
 {
-    private static long timeStamp;
-
-    public static long getTimeStamp() {
-        return timeStamp;
-    }
-
     public static void main(String[] args)
     {
         TimableOutput.initStartTimestamp();
-        timeStamp = System.currentTimeMillis();
 
         final ReentrantLock reentrantLock = new ReentrantLock();
         final Condition condition = reentrantLock.newCondition();
